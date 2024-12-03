@@ -322,7 +322,7 @@ ul {
 }
 
 /* media query for tablet screen sizes */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .HomePageImg {
     height: 550px;
     width: 550px;
@@ -349,4 +349,10 @@ ul {
     width: 60%;
     margin: 10px auto;
   }
+}
+
+@media (min-width: 1024px){
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
