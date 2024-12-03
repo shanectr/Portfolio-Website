@@ -102,7 +102,7 @@ ul {
 .HomePageImg {
   display: block;
   height: 400px;
-  width: 90%;
+  width: 400px;
   margin: 0 auto;
   object-fit: cover;
   border-radius: 15px;
@@ -314,10 +314,17 @@ ul {
   background-color: darkorange;
 }
 
+.contact-me-paragraph {
+    width: 50%;
+    margin: 40px auto;
+    font-size: 1.3rem;
+}
+
 /* media query for tablet screen sizes */
 @media (min-width: 600px) {
   .HomePageImg {
-    height: 600px;
+    height: 550px;
+    width: 500px;
   }
 
   .grid-container {
