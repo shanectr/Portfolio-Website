@@ -100,10 +100,12 @@ ul {
 /* homepage image styling */
 .HomePageImg {
   display: block;
+  height: 600px;
   width: 90%;
   margin: 0 auto;
   object-fit: cover;
   border-radius: 15px;
+  border: 2px solid var(--text-grey-color);
 }
 
 /* homepage bio styling */
