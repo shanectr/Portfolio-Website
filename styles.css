@@ -343,4 +343,9 @@ ul {
   .form-container {
     margin: 10px auto 30px auto;
   }
+
+  .achievement-item .description, .paragraph {
+    width: 60%;
+    margin: 10px auto;
+  }
 }
