@@ -344,7 +344,8 @@ ul {
     margin: 10px auto 30px auto;
   }
 
-  .achievement-item .description, .paragraph {
+  .achievement-item,
+  .paragraph {
     width: 60%;
     margin: 10px auto;
   }
