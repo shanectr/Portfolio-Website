@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
   </head>
+  <a href="#main" class="skip-link">Skip to Main Content</a>
   <header class="header">
     <img class="logo" src="images/Logo.jpg" alt="S R Logo" />
     <h1 class="title">Ross</h1>
@@ -33,34 +34,41 @@
       </ul>
     </nav>
   </header>
-  <body>
-    <div class="contactMe">Contact Me</div>
-    <form class="form-container" action="responses.html" method="GET">
-      <div class="label-input-wrapper">
-        <label class="label" for="name">Name</label>
-        <input class="input" type="text" name="name" id="name" required />
+  <main id="main">
+    <body>
+      <div class="contactMe">Contact Me</div>
+      <form class="form-container" action="responses.html" method="GET">
+        <div class="label-input-wrapper">
+          <label class="label" for="name">Name</label>
+          <input class="input" type="text" name="name" id="name" required />
+        </div>
+        <div class="label-input-wrapper">
+          <label class="label" for="email">Email</label>
+          <input class="input" type="email" name="email" id="email" required />
+        </div>
+        <div class="label-input-wrapper">
+          <label class="label" for="phone">Phone</label>
+          <input class="input" type="tel" name="phone" id="phone" />
+        </div>
+        <div class="label-input-wrapper">
+          <label class="label" for="message">Message</label>
+          <textarea
+            class="input"
+            name="message"
+            id="message"
+            rows="4"
+          ></textarea>
+        </div>
+        <div class="button-wrapper">
+          <button class="button">Submit</button>
+        </div>
+      </form>
+      <div class="contact-me-paragraph">
+        Have questions, feel free to leave your name, email, phone, and a
+        message relating to any quesitons you may have.
       </div>
-      <div class="label-input-wrapper">
-        <label class="label" for="email">Email</label>
-        <input class="input" type="email" name="email" id="email" required />
-      </div>
-      <div class="label-input-wrapper">
-        <label class="label" for="phone">Phone</label>
-        <input class="input" type="tel" name="phone" id="phone" />
-      </div>
-      <div class="label-input-wrapper">
-        <label class="label" for="message">Message</label>
-        <textarea class="input" name="message" id="message" rows="4"></textarea>
-      </div>
-      <div class="button-wrapper">
-        <button class="button">Submit</button>
-      </div>
-    </form>
-    <div class="contact-me-paragraph">
-      Have questions, feel free to leave your name, email, phone, and a message
-      relating to any quesitons you may have.
-    </div>
-  </body>
+    </body>
+  </main>
   <footer class="footer">
     <span class="bottomName">WEB DEV</span>
     <span class="navListBottom">

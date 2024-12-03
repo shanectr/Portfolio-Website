@@ -28,6 +28,23 @@ body {
   text-align: center;
 }
 
+/* skip to main content styling */
+.skip-link {
+  position: absolute;
+  top: -40px; /* Move it off-screen */
+  left: 0;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 10px;
+  left: 10px;
+}
+
 /* Header Styles */
 /* header styling */
 header {
