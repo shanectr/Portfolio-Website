@@ -374,3 +374,91 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+/* Media Query for Light Mode */
+@media (prefers-color-scheme: light) {
+  /* General Body Styles */
+  body {
+    background-color: #fcf6d3a7;
+    color: #333;
+  }
+
+  /* Skip link styling */
+  .skip-link {
+    background-color: #fff;
+    color: #000;
+  }
+
+  /* Header Styles */
+  header {
+    color: #333;
+  }
+
+  /* Footer Styles */
+  .footer {
+    color: #333;
+  }
+
+  /* Homepage Styling */
+  .BackgroundShane {
+    color: #333;
+  }
+
+  .HomePageImg {
+    border: 2px solid #333;
+  }
+
+  .Bio {
+    color: #333;
+  }
+
+  /* About Page Styles */
+  .AboutMe,
+  .paragraph {
+    color: #333;
+  }
+
+  /* Achievements Styles */
+  .achievement-item img {
+    border: 2px solid #333;
+  }
+
+  /* Portfolio Page Styles */
+  .grid-img {
+    border: 2px solid #333;
+  }
+
+  /* Contact Page Styles */
+  .form-container {
+    background-color: #aaa9a8;
+    color: #333;
+    border: 5px solid #c5a974;
+  }
+
+  .button {
+    background-color: #c5a974;
+    color: #333;
+  }
+
+  .button:hover {
+    background-color: #d6a24e;
+  }
+
+  /* Other Lighter Elements */
+  .input {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .label {
+    color: black;
+  }
+
+  .input:focus {
+    background-color: #f0f0f0;
+  }
+
+  .contact-me-paragraph {
+    color: #333;
+  }
+}
