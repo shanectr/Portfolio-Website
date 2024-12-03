@@ -100,7 +100,7 @@ ul {
 /* homepage image styling */
 .HomePageImg {
   display: block;
-  height: 600px;
+  height: 400px;
   width: 90%;
   margin: 0 auto;
   object-fit: cover;
