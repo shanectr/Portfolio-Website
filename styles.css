@@ -246,3 +246,67 @@ ul {
 .skillList {
   margin: 10px auto;
 }
+
+/* Contact Me page styles */
+.contactMe {
+  color: var(--text-grey-color);
+  font-family: var(--background-font);
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+/* form styles contact me page */
+.form-container {
+  width: 90%;
+  height: fit-content;
+  padding: 25px;
+  background-color: var(--text-accent-color);
+  color: lightgrey;
+  margin: 50px auto;
+  border-radius: 50px;
+  border: 5px solid var(--accent-color);
+}
+
+.label-input-wrapper {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.label {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  resize: vertical;
+  background-color: #fafad2;
+  padding: 5px;
+}
+
+.input:focus {
+  background-color: #f8f8ac;
+}
+
+.button-wrapper {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 20px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+  transition: background-color 2s ease;
+}
+
+.button:hover {
+  background-color: darkorange;
+}
