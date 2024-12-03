@@ -238,6 +238,7 @@ ul {
   height: 250px;
   object-fit: cover;
   border: 2px solid var(--text-grey-color);
+  border-radius: 10px;
   margin-bottom: 15px;
 }
 
