@@ -339,6 +339,22 @@ ul {
   font-size: 1.3rem;
 }
 
+/* Hover effects for project images */
+.grid-img:hover,
+.ach1:hover,
+.ach2:hover,
+.ach3:hover {
+  transform: scale(1.05);
+  transition: transform 500ms ease;
+}
+
+.grid-img,
+.ach1,
+.ach2,
+.ach3 {
+  transition: transform 500ms ease;
+}
+
 /* media query for tablet screen sizes */
 @media (min-width: 768px) {
   .HomePageImg {
@@ -460,5 +476,16 @@ ul {
 
   .contact-me-paragraph {
     color: #333;
+  }
+}
+
+/* Media query to handle reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .grid-img:hover,
+  .ach1:hover,
+  .ach2:hover,
+  .ach3:hover {
+    transform: none;
+    transition: none;
   }
 }
