@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-accent-color: #292929;
+    --accent-color: #c5a974;
+    --background-font: "Holtwood One SC", serif;
+    --text-grey-color: grey;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--text-accent-color);
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: var(--background-font);
+    margin: auto;
+}
+
+.navList {
+    display: flex;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hometop, .abouttop, .portfoliotop, .contacttop {
+    margin-right: 20px;
+}
+
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.projecttitle {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-grey-color);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 500px);
+    margin-top: 20px;
+    justify-content: space-evenly;
+    color: var(--text-grey-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+    margin-top: 15px;
+    border-radius: 15%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.description-of-project {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skillList {
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100vw;
+    background-color: var(--accent-color);
+}
+
+.bottomName {
+    font-size: 5rem;
+    font-style: italic;
+    color: var(--text-accent-color);
+    font-family: var(--background-font);
+    text-wrap: nowrap;
+}
+
+.navListBottom {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list {
+    padding: 0;
+    transform: translateY(5px);
+    font-weight: bold;
+}
+
+.homebtm, .aboutbtm, .portfoliobtm, .contactbtm {
+    padding-bottom: 5px;
+}
