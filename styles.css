@@ -208,14 +208,41 @@ ul {
 /* Portfolio page Styles */
 /* Projects text styling */
 .projecttitle {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin: 20px 0;
 }
 
 /* projects grid container styling */
 .grid-container {
-    display: grid;
-    row-gap: 40px;
+  display: grid;
+  row-gap: 40px;
 }
 
+.grid-container > div:nth-child(6) {
+  margin-bottom: 60px;
+}
 
+/* seperate project styling */
+.project-title {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+/* seperate project image styling */
+.grid-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid var(--text-grey-color);
+  margin-bottom: 15px;
+}
+
+/* skills learned text styling */
+.skills-learned {
+  font-size: 1.1rem;
+}
+
+/* skill list styling */
+.skillList {
+  margin: 10px auto;
+}
