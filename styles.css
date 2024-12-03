@@ -101,8 +101,8 @@ ul {
 /* homepage image styling */
 .HomePageImg {
   display: block;
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: 0 auto;
   object-fit: cover;
   object-position: 50% 40%;
@@ -351,8 +351,8 @@ ul {
   }
 }
 
-@media (min-width: 1024px){
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
